@@ -5,11 +5,17 @@ The labs progressively cover the full spectrum of NLP, from text preprocessing a
 ## Repository Structure
 NLP-Labs-BigDataAnalytics/
 │
+
 ├── Lab01_Preprocessing_Ngrams/
+
 ├── Lab02_NB_LG_WordSemantics/
+
 ├── Lab03_RNN_LSTM_Transformers/
+
 ├── Lab04_MT_POS_NER/
+
 ├── Lab05_Coreference_Resolution/
+
 └── README.md
 ## Labs Overview
 ### Lab 01 – Preprocessing and N-Grams
