@@ -1,9 +1,10 @@
-# Natural Language Processing Labs – Big Data Analytics
-This repository contains a collection of five NLP labs completed during my Master of Science in Big Data Analytics at Al Akhawayn University, Morocco.
-The labs progressively cover the full spectrum of NLP, from text preprocessing and classic ML models to deep learning architectures and advanced linguistic tasks.
+# Natural Language Processing Labs – MS Big Data Analytics
+This repository contains a series of five NLP labs completed as part of the Natural Language Processing course in the Master of Science in Big Data Analytics program at Al Akhawayn University.
+The labs cover core NLP concepts, from preprocessing to advanced transformer-based architectures.
 
 ## Repository Structure
 NLP-Labs-BigDataAnalytics/
+
 │
 
 ├── Lab01_Preprocessing_Ngrams/
@@ -17,38 +18,33 @@ NLP-Labs-BigDataAnalytics/
 ├── Lab05_Coreference_Resolution/
 
 └── README.md
-## Labs Overview
-### Lab 01 – Preprocessing and N-Grams
-- Text cleaning, tokenization, stopword removal, and stemming
-- Bigram and trigram modeling for text analytics
-- N-Gram language model probability computation
 
-### Lab 02 – Naïve Bayes, Logistic Regression & Word Vector Semantics
-- Naïve Bayes sentiment classification
-- Logistic Regression for text classification
-- Word embedding similarity & semantic analysis
+
+
+## Lab Overview
+### Lab 01 – Preprocessing and N-grams
+- Text preprocessing: tokenization, stopword removal, stemming, lemmatization
+- Statistical language models: unigram, bigram, trigram generation and probability estimation
+
+### Lab 02 – Naïve Bayes, Logistic Regression, and Word Vector Semantics
+- Document classification with Naïve Bayes & Logistic Regression
+- Semantic similarity using Word2Vec embeddings
 
 ### Lab 03 – RNNs, LSTMs, and Transformers
-- Text classification with RNN and LSTM networks
-- Transformer-based sentence representation
-- Performance comparison between traditional ML and deep learning models
+- Sequence modeling with RNNs and LSTMs
+- Introduction to attention mechanisms and transformer models
 
-### Lab 04 – Machine Translation, POS Tagging, NER
-- Implemented sequence labeling with CRFs and LSTMs
-- Named Entity Recognition (NER) and Part-of-Speech (POS) tagging
-- Neural Machine Translation (NMT) using seq2seq architectures
+### Lab 04 – Machine Translation, POS Tagging, and Named Entity Recognition
+- Neural machine translation (seq2seq)
+- POS tagging and NER using spaCy and transformer-based models
 
 ### Lab 05 – Coreference Resolution
-- Implemented rule-based and neural coreference resolution
-- Integrated transformer embeddings for entity linking
-- Evaluated with CoNLL metrics
+- Coreference detection and resolution in text
+- Analysis of entity linking in long-form documents
 
-## Learning Outcomes
-- Mastered text preprocessing and feature engineering for NLP tasks
-- Applied classical ML and deep learning models for text classification
-- Implemented sequence models, transformers, and NMT
-- Explored linguistic tasks such as NER, POS tagging, and coreference resolution
-- Gained experience with end-to-end NLP pipelines and evaluation metrics
+## Tech Stack: Python, NLTK, scikit-learn, Gensim, spaCy, PyTorch, Hugging Face Transformers
+
+📌 These labs demonstrate hands-on experience in building, training, and evaluating NLP models, as well as applying them to real-world linguistic tasks.
 
 # Kenza Bouqdir
 - Master’s Student in Big Data Analytics, Al Akhawayn University
